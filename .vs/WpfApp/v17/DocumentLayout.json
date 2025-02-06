@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\romel\\source\\repos\\WpfApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DB320B-E094-40FE-9656-9B4AFBAF0540}|WpfApp\\WpfApp.csproj|c:\\users\\romel\\source\\repos\\wpfapp\\wpfapp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D7DB320B-E094-40FE-9656-9B4AFBAF0540}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DB320B-E094-40FE-9656-9B4AFBAF0540}|WpfApp\\WpfApp.csproj|c:\\users\\romel\\source\\repos\\wpfapp\\wpfapp\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7DB320B-E094-40FE-9656-9B4AFBAF0540}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\romel\\source\\repos\\WpfApp\\WpfApp\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\romel\\source\\repos\\WpfApp\\WpfApp\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-29T01:32:24.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\romel\\source\\repos\\WpfApp\\WpfApp\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\romel\\source\\repos\\WpfApp\\WpfApp\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwBcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T01:32:20.717Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
