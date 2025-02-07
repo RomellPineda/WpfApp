@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfApp.ViewModel;
 
 namespace WpfApp
 {
@@ -16,21 +17,13 @@ namespace WpfApp
     /// </summary>
     public partial class MainWindow : Window
     {
-        //private int clickCount;
-        public string name { get; set; } = "...";
         public MainWindow()
         {
             InitializeComponent();
-            //clickCount = 0;
-            this.DataContext = this;
+            MainViewModel mainViewModel = new MainViewModel();
+            this.DataContext = mainViewModel;
         }
 
-        private void MainButton_Click(object sender, RoutedEventArgs e)
-        {
-            //clickCount++;
-            //MainLabel.Content = "button clicked: " + clickCount + " times";
-            name = MainTextBox.Text;
-            MainLabel.Content = $"hello, {name.ToString()}!";
-        }
+       
     }
 }

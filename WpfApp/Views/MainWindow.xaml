@@ -9,41 +9,16 @@
     Width="800"
     Height="450"
     mc:Ignorable="d">
-    <!--<Grid Height="300px" Width="600px">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="125px"/>
-            <RowDefinition Height="125px"/>
-            <RowDefinition Height="50px"/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="200px"/>
-            <ColumnDefinition Width="200px"/>
-            <ColumnDefinition Width="200px"/>
-        </Grid.ColumnDefinitions>
-        <StackPanel Grid.Row="0" Grid.Column="0">
-            <Label x:Name="MainLabel">hello, noob!</Label>
-            <Button x:Name="MainButton" Click="MainButton_Click" Width="200px" Cursor="Hand" HorizontalAlignment="Left">click this</Button>
-        </StackPanel>
-    </Grid>-->
-    <StackPanel>
-        <StackPanel Margin="20px">
-            <TextBlock Text="enter your name, noob" />
-            <TextBox
-                x:Name="MainTextBox"
-                Width="200px"
-                HorizontalAlignment="Left" />
-            <Button
-                x:Name="MainButton"
-                Width="200px"
-                HorizontalAlignment="Left"
-                Click="MainButton_Click"
-                Cursor="Hand">
-                send it
-            </Button>
-            <Label
-                x:Name="MainLabel"
-                Content="{Binding Path=name}"
-                FontWeight="Bold" />
-        </StackPanel>
-    </StackPanel>
+
+    <ListView
+        x:Name="MainListView"
+        ItemsSource="{Binding Jobs}"
+        Margin="20px">
+        <ListView.View>
+            <GridView>
+                <GridViewColumn Header="Job Title" />
+                <GridViewColumn Header="Description" />
+            </GridView>
+        </ListView.View>
+    </ListView>
 </Window>
