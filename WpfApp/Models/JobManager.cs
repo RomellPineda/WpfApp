@@ -9,7 +9,7 @@ namespace WpfApp.Models
 {
     public class JobManager
     {
-        public static ObservableCollection<Job> _JobDatabase = new ObservableCollection<Job>() { new Job {Title = "DevOps Engineer", Description = "Lorem..."}, new Job {Title = "Software Engineer", Description = "Lorem..."}, new Job {Title = "Project Manager", Description = "Lorem.." } };
+        public static ObservableCollection<Job> _JobDatabase = new ObservableCollection<Job>() { new Job {Title = "DevOps Engineer", Location = "Seattle, WA", Description = "Lorem..."}, new Job {Title = "Software Engineer", Location = "San Francisco, CA", Description = "Lorem..."}, new Job {Title = "Project Manager", Location = "El Segundo, CA", Description = "Lorem.." } };
 
         public static ObservableCollection<Job> GetJobs()
         {

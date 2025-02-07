@@ -10,15 +10,38 @@
     Height="450"
     mc:Ignorable="d">
 
-    <ListView
-        x:Name="MainListView"
-        ItemsSource="{Binding Jobs}"
-        Margin="20px">
-        <ListView.View>
-            <GridView>
-                <GridViewColumn Header="Job Title" />
-                <GridViewColumn Header="Description" />
-            </GridView>
-        </ListView.View>
-    </ListView>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <TextBox
+            x:Name="FilterTextBoxx"
+            TextChanged="FilterTextBox_TextChanged"
+            Grid.Row="0"
+            Margin="20px"
+            TextWrapping="Wrap"
+            VerticalScrollBarVisibility="Auto"
+            HorizontalScrollBarVisibility="Auto"
+            AcceptsReturn="True"
+            MinLines="1"
+            MaxLines="1"
+            FontSize="16px"
+            Padding="5px"
+            BorderThickness="1px"
+            BorderBrush="Black"
+            />
+        <ListView
+            x:Name="MainListView"
+            ItemsSource="{Binding Jobs}"
+            Margin="20px">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding="{Binding Title}" Header="Job Title" />
+                    <GridViewColumn DisplayMemberBinding="{Binding Location}" Header="Location" />
+                    <GridViewColumn DisplayMemberBinding="{Binding Description}" Header="Description" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
 </Window>
