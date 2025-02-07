@@ -3,36 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\romel\\source\\repos\\WpfApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D7DB320B-E094-40FE-9656-9B4AFBAF0540}|WpfApp\\WpfApp.csproj|c:\\users\\romel\\source\\repos\\wpfapp\\wpfapp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D7DB320B-E094-40FE-9656-9B4AFBAF0540}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7DB320B-E094-40FE-9656-9B4AFBAF0540}|WpfApp\\WpfApp.csproj|c:\\users\\romel\\source\\repos\\wpfapp\\wpfapp\\models\\jobmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7DB320B-E094-40FE-9656-9B4AFBAF0540}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\models\\jobmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7DB320B-E094-40FE-9656-9B4AFBAF0540}|WpfApp\\WpfApp.csproj|c:\\users\\romel\\source\\repos\\wpfapp\\wpfapp\\models\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7DB320B-E094-40FE-9656-9B4AFBAF0540}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\models\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D7DB320B-E094-40FE-9656-9B4AFBAF0540}|WpfApp\\WpfApp.csproj|c:\\users\\romel\\source\\repos\\wpfapp\\wpfapp\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7DB320B-E094-40FE-9656-9B4AFBAF0540}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7DB320B-E094-40FE-9656-9B4AFBAF0540}|WpfApp\\WpfApp.csproj|c:\\users\\romel\\source\\repos\\wpfapp\\wpfapp\\views\\applytojob.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7DB320B-E094-40FE-9656-9B4AFBAF0540}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\applytojob.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7DB320B-E094-40FE-9656-9B4AFBAF0540}|WpfApp\\WpfApp.csproj|c:\\users\\romel\\source\\repos\\wpfapp\\wpfapp\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7DB320B-E094-40FE-9656-9B4AFBAF0540}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7DB320B-E094-40FE-9656-9B4AFBAF0540}|WpfApp\\WpfApp.csproj|c:\\users\\romel\\source\\repos\\wpfapp\\wpfapp\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7DB320B-E094-40FE-9656-9B4AFBAF0540}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7DB320B-E094-40FE-9656-9B4AFBAF0540}|WpfApp\\WpfApp.csproj|c:\\users\\romel\\source\\repos\\wpfapp\\wpfapp\\views\\applytojob.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D7DB320B-E094-40FE-9656-9B4AFBAF0540}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\applytojob.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{D7DB320B-E094-40FE-9656-9B4AFBAF0540}|WpfApp\\WpfApp.csproj|c:\\users\\romel\\source\\repos\\wpfapp\\wpfapp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D7DB320B-E094-40FE-9656-9B4AFBAF0540}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,108 +18,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\romel\\source\\repos\\WpfApp\\WpfApp\\ViewModel\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "WpfApp\\ViewModel\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\romel\\source\\repos\\WpfApp\\WpfApp\\ViewModel\\MainViewModel.cs",
-              "RelativeToolTip": "WpfApp\\ViewModel\\MainViewModel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAlwBEAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T03:14:10.819Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\romel\\source\\repos\\WpfApp\\WpfApp\\Views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WpfApp\\Views\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\romel\\source\\repos\\WpfApp\\WpfApp\\Views\\MainWindow.xaml*",
-              "RelativeToolTip": "WpfApp\\Views\\MainWindow.xaml*",
+              "ToolTip": "C:\\Users\\romel\\source\\repos\\WpfApp\\WpfApp\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp\\Views\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-01-29T01:32:24.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\romel\\source\\repos\\WpfApp\\WpfApp\\Views\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WpfApp\\Views\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\romel\\source\\repos\\WpfApp\\WpfApp\\Views\\MainWindow.xaml.cs",
               "RelativeToolTip": "WpfApp\\Views\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAUwBcAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-29T01:32:20.717Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "JobManager.cs",
-              "DocumentMoniker": "C:\\Users\\romel\\source\\repos\\WpfApp\\WpfApp\\Models\\JobManager.cs",
-              "RelativeDocumentMoniker": "WpfApp\\Models\\JobManager.cs",
-              "ToolTip": "C:\\Users\\romel\\source\\repos\\WpfApp\\WpfApp\\Models\\JobManager.cs",
-              "RelativeToolTip": "WpfApp\\Models\\JobManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T02:53:26.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "C:\\Users\\romel\\source\\repos\\WpfApp\\WpfApp\\Commands\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "WpfApp\\Commands\\RelayCommand.cs",
-              "ToolTip": "C:\\Users\\romel\\source\\repos\\WpfApp\\WpfApp\\Commands\\RelayCommand.cs",
-              "RelativeToolTip": "WpfApp\\Commands\\RelayCommand.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T03:20:18.637Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ApplyToJob.xaml",
-              "DocumentMoniker": "C:\\Users\\romel\\source\\repos\\WpfApp\\WpfApp\\Views\\ApplyToJob.xaml",
-              "RelativeDocumentMoniker": "WpfApp\\Views\\ApplyToJob.xaml",
-              "ToolTip": "C:\\Users\\romel\\source\\repos\\WpfApp\\WpfApp\\Views\\ApplyToJob.xaml",
-              "RelativeToolTip": "WpfApp\\Views\\ApplyToJob.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-07T03:44:42.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApplyToJob.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\romel\\source\\repos\\WpfApp\\WpfApp\\Views\\ApplyToJob.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp\\Views\\ApplyToJob.xaml.cs",
-              "ToolTip": "C:\\Users\\romel\\source\\repos\\WpfApp\\WpfApp\\Views\\ApplyToJob.xaml.cs",
-              "RelativeToolTip": "WpfApp\\Views\\ApplyToJob.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T03:47:11.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Job.cs",
-              "DocumentMoniker": "C:\\Users\\romel\\source\\repos\\WpfApp\\WpfApp\\Models\\Job.cs",
-              "RelativeDocumentMoniker": "WpfApp\\Models\\Job.cs",
-              "ToolTip": "C:\\Users\\romel\\source\\repos\\WpfApp\\WpfApp\\Models\\Job.cs",
-              "RelativeToolTip": "WpfApp\\Models\\Job.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T02:48:37.429Z",
               "EditorCaption": ""
             }
           ]
