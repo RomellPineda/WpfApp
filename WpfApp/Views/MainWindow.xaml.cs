@@ -10,6 +10,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WpfApp.Models;
 using WpfApp.ViewModel;
+using WpfApp.Views;
 
 namespace WpfApp
 {
@@ -34,6 +35,12 @@ namespace WpfApp
         {
             var job = obj as Job;
             return job.Title.Contains(FilterTextBoxx.Text, StringComparison.OrdinalIgnoreCase);
+        }
+
+        private void ApplyButton_Click(object sender, RoutedEventArgs e)
+        {
+            ApplyToJob applyToJob = new ApplyToJob();
+            applyToJob.Show();
         }
     }
 }

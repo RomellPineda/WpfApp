@@ -34,12 +34,24 @@
         <ListView
             x:Name="MainListView"
             ItemsSource="{Binding Jobs}"
+            Grid.Row="1"
             Margin="20px">
             <ListView.View>
                 <GridView>
                     <GridViewColumn DisplayMemberBinding="{Binding Title}" Header="Job Title" />
                     <GridViewColumn DisplayMemberBinding="{Binding Location}" Header="Location" />
                     <GridViewColumn DisplayMemberBinding="{Binding Description}" Header="Description" />
+                    <GridViewColumn DisplayMemberBinding="{Binding DatePosted}" Header="Date Posted" />
+                    <GridViewColumn>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button
+                                    Content="Apply"
+                                    Click="ApplyButton_Click"
+                                    />
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
                 </GridView>
             </ListView.View>
         </ListView>
