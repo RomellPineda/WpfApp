@@ -8,6 +8,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfApp.Models;
+using WpfApp.ViewModel;
+using WpfApp.Views;
 
 namespace WpfApp
 {
@@ -16,21 +19,28 @@ namespace WpfApp
     /// </summary>
     public partial class MainWindow : Window
     {
-        //private int clickCount;
-        public string name { get; set; } = "...";
         public MainWindow()
         {
             InitializeComponent();
-            //clickCount = 0;
-            this.DataContext = this;
+            MainViewModel mainViewModel = new MainViewModel();
+            this.DataContext = mainViewModel;
         }
 
-        private void MainButton_Click(object sender, RoutedEventArgs e)
+        private void FilterTextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            //clickCount++;
-            //MainLabel.Content = "button clicked: " + clickCount + " times";
-            name = MainTextBox.Text;
-            MainLabel.Content = $"hello, {name.ToString()}!";
+            MainListView.Items.Filter = FilterMethod;
+        }
+
+        private bool FilterMethod(object obj)
+        {
+            var job = obj as Job;
+            return job.Title.Contains(FilterTextBoxx.Text, StringComparison.OrdinalIgnoreCase);
+        }
+
+        private void ApplyButton_Click(object sender, RoutedEventArgs e)
+        {
+            ApplyToJob applyToJob = new ApplyToJob();
+            applyToJob.Show();
         }
     }
 }

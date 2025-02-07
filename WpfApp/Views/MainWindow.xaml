@@ -9,41 +9,51 @@
     Width="800"
     Height="450"
     mc:Ignorable="d">
-    <!--<Grid Height="300px" Width="600px">
+
+    <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="125px"/>
-            <RowDefinition Height="125px"/>
-            <RowDefinition Height="50px"/>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="200px"/>
-            <ColumnDefinition Width="200px"/>
-            <ColumnDefinition Width="200px"/>
-        </Grid.ColumnDefinitions>
-        <StackPanel Grid.Row="0" Grid.Column="0">
-            <Label x:Name="MainLabel">hello, noob!</Label>
-            <Button x:Name="MainButton" Click="MainButton_Click" Width="200px" Cursor="Hand" HorizontalAlignment="Left">click this</Button>
-        </StackPanel>
-    </Grid>-->
-    <StackPanel>
-        <StackPanel Margin="20px">
-            <TextBlock Text="enter your name, noob" />
-            <TextBox
-                x:Name="MainTextBox"
-                Width="200px"
-                HorizontalAlignment="Left" />
-            <Button
-                x:Name="MainButton"
-                Width="200px"
-                HorizontalAlignment="Left"
-                Click="MainButton_Click"
-                Cursor="Hand">
-                send it
-            </Button>
-            <Label
-                x:Name="MainLabel"
-                Content="{Binding Path=name}"
-                FontWeight="Bold" />
-        </StackPanel>
-    </StackPanel>
+        <TextBox
+            x:Name="FilterTextBoxx"
+            TextChanged="FilterTextBox_TextChanged"
+            Grid.Row="0"
+            Margin="20px"
+            TextWrapping="Wrap"
+            VerticalScrollBarVisibility="Auto"
+            HorizontalScrollBarVisibility="Auto"
+            AcceptsReturn="True"
+            MinLines="1"
+            MaxLines="1"
+            FontSize="16px"
+            Padding="5px"
+            BorderThickness="1px"
+            BorderBrush="Black"
+            />
+        <ListView
+            x:Name="MainListView"
+            ItemsSource="{Binding Jobs}"
+            Grid.Row="1"
+            Margin="20px">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding="{Binding Title}" Header="Job Title" />
+                    <GridViewColumn DisplayMemberBinding="{Binding Location}" Header="Location" />
+                    <GridViewColumn DisplayMemberBinding="{Binding Description}" Header="Description" />
+                    <GridViewColumn DisplayMemberBinding="{Binding DatePosted}" Header="Date Posted" />
+                    <GridViewColumn>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button
+                                    Content="Apply"
+                                    Click="ApplyButton_Click"
+                                    />
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
 </Window>

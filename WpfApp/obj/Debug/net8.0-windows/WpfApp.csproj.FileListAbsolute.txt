@@ -18,3 +18,5 @@ C:\Users\romel\source\repos\WpfApp\WpfApp\obj\Debug\net8.0-windows\WpfApp.genrun
 C:\Users\romel\source\repos\WpfApp\WpfApp\obj\Debug\net8.0-windows\ref\WpfApp.dll
 C:\Users\romel\source\repos\WpfApp\WpfApp\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
 C:\Users\romel\source\repos\WpfApp\WpfApp\obj\Debug\net8.0-windows\Views\MainWindow.baml
+C:\Users\romel\source\repos\WpfApp\WpfApp\obj\Debug\net8.0-windows\Views\ApplyToJob.g.cs
+C:\Users\romel\source\repos\WpfApp\WpfApp\obj\Debug\net8.0-windows\Views\ApplyToJob.baml

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\romel\source\repos\WpfApp\WpfApp\App.xaml
-1-1644662438
+2-759831753
 
-6-1177691144
+111598279485
 198-1431420039
-Views\MainWindow.xaml;
+Views\ApplyToJob.xaml;Views\MainWindow.xaml;
 
-True
+False
 
